@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="../css/main.css">
+    <title>Woonkamer</title>
+</head>
+<body class="body body--stage">
+<main class="main-stage">
+    <img class="main-stage__bg-img" src="../img/kamers/woonkamer/woonkamer-1920.webp" alt="Woonkamer"> <!-- img niet responisve omdat het een bg img is en die moet groot zijn voor swipe functie -->
+    <a class="main-stage__move-room" href="../Stage2/stage2-toilet.html" id="js--room-chooser">Toilet</a>
+    <a class="main-stage__move-room main-stage__move-room--desktop" href="../Stage2/stage2-woonkamer-gesprek.html">Woonkamer</a>
+    <a class="main-stage__move-room main-stage__move-room--desktop" href="../Stage2/stage2-buiten.html">Buiten</a>
+    <section class="main-stage__text-container" onclick="skipText()">
+        <p id="js--typewriter" class="main-stage__text-container__text main-stage__text-container__text--blur">Je komt weer binnen en je begint al een beetje een effect te voelen, waarschijnlijk van wat je eerder gedronken hebt.  James en de rest staan nu te praten met het andere groepje mensen.</p>
+    </section>
+</main>
+<script src="../js/stage2/woonkamer.js"></script>
+</body>
+</html>
